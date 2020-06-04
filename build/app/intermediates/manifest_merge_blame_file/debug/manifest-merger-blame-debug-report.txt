@@ -1,0 +1,341 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pharmacy.reach_pill"
+4    android:versionCode="2"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:9:5-67
+14-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:10:5-65
+15-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:10:22-62
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:11:5-79
+16-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:12:5-81
+17-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:13:5-80
+18-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:14:5-67
+19-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:14:22-65
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:15:5-80
+20-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:15:22-77
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:16:5-81
+21-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:16:22-78
+22    <uses-permission android:name="android.permission.READ_CALENDAR" />
+22-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:17:5-72
+22-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:17:22-69
+23    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+23-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:18:5-73
+23-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:18:22-70
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+24-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:22:22-76
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+30
+31    <application
+31-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:21:5-71:19
+32        android:name="io.flutter.app.FlutterApplication"
+32-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:22:9-57
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.0.2] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\3195df2c0411d2825a9897af6f23db03\core-1.0.2\AndroidManifest.xml:22:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/launcher_icon"
+35-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:24:9-45
+36        android:label="Reach Pill"
+36-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:23:9-35
+37        android:supportsRtl="true" >
+37-->[com.facebook.android:facebook-login:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\c092f94b3922eb9ef6003bf2bc185a68\jetified-facebook-login-5.5.1\AndroidManifest.xml:28:18-44
+38
+39        <!-- Add the following entry, with your API key -->
+40        <meta-data
+40-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:27:9-28:77
+41            android:name="com.google.android.geo.API_KEY"
+41-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:27:20-65
+42            android:value="AIzaSyC_2Bl7U94OAHmQWVuYRhLjaWJdKJqH_-0" />
+42-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:28:20-75
+43        <meta-data
+43-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:29:9-30:54
+44            android:name="com.facebook.sdk.ApplicationId"
+44-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:29:20-65
+45            android:value="@string/facebook_app_id" />
+45-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:30:13-52
+46
+47        <activity
+47-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:32:9-35:48
+48            android:name="com.facebook.FacebookActivity"
+48-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:32:19-63
+49            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+49-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:33:13-113
+50            android:label="@string/app_name"
+50-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:35:13-45
+51            android:theme="@style/com_facebook_activity_theme" />
+51-->[com.facebook.android:facebook-common:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\06e481fe186d929457af2bd630ab4dee\jetified-facebook-common-5.5.1\AndroidManifest.xml:32:13-63
+52        <activity
+52-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:37:9-46:20
+53            android:name="com.facebook.CustomTabActivity"
+53-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:38:13-58
+54            android:exported="true" >
+54-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:39:13-36
+55            <intent-filter>
+55-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:40:13-45:29
+56                <action android:name="android.intent.action.VIEW" />
+56-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:41:17-69
+56-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:41:25-66
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+58-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:42:17-76
+58-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:42:27-73
+59                <category android:name="android.intent.category.BROWSABLE" />
+59-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:43:17-78
+59-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:43:27-75
+60
+61                <data android:scheme="@string/fb_login_protocol_scheme" />
+61-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:44:17-75
+61-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:44:23-72
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:48:9-70:20
+65            android:name="com.pharmacy.reach_pill.MainActivity"
+65-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:49:13-64
+66            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+66-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:52:13-144
+67            android:hardwareAccelerated="true"
+67-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:53:13-47
+68            android:launchMode="singleTop"
+68-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:50:13-43
+69            android:theme="@style/LaunchTheme"
+69-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:51:13-47
+70            android:windowSoftInputMode="adjustResize" >
+70-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:54:13-55
+71
+72            <!--
+73                 This keeps the window background of the activity showing
+74                 until Flutter renders its first frame. It can be removed if
+75                 there is no splash screen (such as the default splash screen
+76                 defined in @style/LaunchTheme).
+77            -->
+78            <meta-data
+78-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:59:13-61:40
+79                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+79-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:60:17-82
+80                android:value="true" />
+80-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:61:17-37
+81
+82            <intent-filter>
+82-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:62:13-65:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:63:17-68
+83-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:63:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:64:17-76
+85-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:64:27-74
+86            </intent-filter>
+87            <intent-filter>
+87-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:66:13-69:29
+88                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+88-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:67:17-69
+88-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:67:25-66
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:42:17-76
+90-->D:\Work\Q8InTouch\flutter_projects\reach_pill\android\app\src\main\AndroidManifest.xml:42:27-73
+91            </intent-filter>
+92        </activity>
+93
+94        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+94-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+94-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-101
+95            <intent-filter>
+95-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+96                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+96-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+96-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+97            </intent-filter>
+98        </service>
+99        <service
+99-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-17:19
+100            android:name="com.google.firebase.components.ComponentDiscoveryService"
+100-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:18-89
+101            android:exported="false" >
+101-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:31:13-37
+102            <meta-data
+102-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-16:85
+103                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+103-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-127
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-82
+105            <meta-data
+105-->[:firebase_core] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+106-->[:firebase_core] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[:firebase_core] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+109                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+109-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+111        </service>
+112
+113        <provider
+113-->[:image_picker] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+114            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+114-->[:image_picker] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+115            android:authorities="com.pharmacy.reach_pill.flutter.image_provider"
+115-->[:image_picker] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+116            android:exported="false"
+116-->[:image_picker] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+117            android:grantUriPermissions="true" >
+117-->[:image_picker] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+118            <meta-data
+118-->[:image_picker] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+119                android:name="android.support.FILE_PROVIDER_PATHS"
+119-->[:image_picker] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+120                android:resource="@xml/flutter_image_picker_file_paths" />
+120-->[:image_picker] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+121        </provider>
+122        <!--
+123             FirebaseMessagingService performs security checks at runtime,
+124             but set to not exported to explicitly avoid allowing another app to call it.
+125        -->
+126        <service
+126-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\a466fe1f406428476d34a1f1b8ccea2e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+127            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+127-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\a466fe1f406428476d34a1f1b8ccea2e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+128            android:exported="false" >
+128-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\a466fe1f406428476d34a1f1b8ccea2e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+129            <intent-filter android:priority="-500" >
+129-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+130                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+130-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+130-->[:firebase_messaging] D:\Work\Q8InTouch\flutter_projects\reach_pill\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+131            </intent-filter>
+132        </service>
+133
+134        <receiver
+134-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+135            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+135-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+136            android:exported="true"
+136-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+137            android:permission="com.google.android.c2dm.permission.SEND" >
+137-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+138            <intent-filter>
+138-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+139                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+139-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+139-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+140            </intent-filter>
+141        </receiver>
+142
+143        <provider
+143-->[com.google.firebase:firebase-common:19.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+144            android:name="com.google.firebase.provider.FirebaseInitProvider"
+144-->[com.google.firebase:firebase-common:19.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+145            android:authorities="com.pharmacy.reach_pill.firebaseinitprovider"
+145-->[com.google.firebase:firebase-common:19.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+146            android:exported="false"
+146-->[com.google.firebase:firebase-common:19.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+147            android:initOrder="100" />
+147-->[com.google.firebase:firebase-common:19.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+148
+149        <activity android:name="com.facebook.CustomTabMainActivity" />
+149-->[com.facebook.android:facebook-common:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\06e481fe186d929457af2bd630ab4dee\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:9-71
+149-->[com.facebook.android:facebook-common:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\06e481fe186d929457af2bd630ab4dee\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:19-68
+150        <!--
+151         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+152         with the application context. This config is merged in with the host app's manifest,
+153         but there can only be one provider with the same authority activated at any given
+154         point; so if the end user has two or more different apps that use Facebook SDK, only the
+155         first one will be able to use the provider. To work around this problem, we use the
+156         following placeholder in the authority to identify each host application as if it was
+157         a completely different provider.
+158        -->
+159        <provider
+159-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:39:9-42:40
+160            android:name="com.facebook.internal.FacebookInitProvider"
+160-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:40:13-70
+161            android:authorities="com.pharmacy.reach_pill.FacebookInitProvider"
+161-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:41:13-72
+162            android:exported="false" />
+162-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:42:13-37
+163
+164        <receiver
+164-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:44:9-50:20
+165            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+165-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:45:13-86
+166            android:exported="false" >
+166-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:46:13-37
+167            <intent-filter>
+167-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:47:13-49:29
+168                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+168-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:17-95
+168-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:25-92
+169            </intent-filter>
+170        </receiver>
+171        <receiver
+171-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:51:9-58:20
+172            android:name="com.facebook.CampaignTrackingReceiver"
+172-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:52:13-65
+173            android:exported="true"
+173-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:53:13-36
+174            android:permission="android.permission.INSTALL_PACKAGES" >
+174-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:54:13-69
+175            <intent-filter>
+175-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:55:13-57:29
+176                <action android:name="com.android.vending.INSTALL_REFERRER" />
+176-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:17-79
+176-->[com.facebook.android:facebook-core:5.5.1] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\ef89ca65eaea91b3be4c200053cff565\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:25-76
+177            </intent-filter>
+178        </receiver> <!-- Needs to be explicitly declared on P+ -->
+179        <uses-library
+179-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+180            android:name="org.apache.http.legacy"
+180-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+181            android:required="false" />
+181-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+182
+183        <activity
+183-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+184            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+184-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+186            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+186-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+187
+188        <meta-data
+188-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\69cc59203b8d6e3537db9961c2e71d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+189            android:name="com.google.android.gms.version"
+189-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\69cc59203b8d6e3537db9961c2e71d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+190            android:value="@integer/google_play_services_version" />
+190-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mahmoud\.gradle\caches\transforms-2\files-2.1\69cc59203b8d6e3537db9961c2e71d28\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+191    </application>
+192
+193</manifest>
